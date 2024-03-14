@@ -1,7 +1,15 @@
 1. publish config files
- - php artisan config:publish 
+ - `php artisan config:publish` 
 2. create a provider 
- - php artisan make:provider TestingServiceProvider
+ - `php artisan make:provider TestingServiceProvider`
  - laravel auto add's provider to bootstrap/providers.php and app/Providers
 3. create a middleware
- - php artisan make:middleware LogRequestEndpoint
+ - `php artisan make:middleware LogRequestEndpoint`
+ - middleware configs come in bootstrap/app.php
+
+4. Define commands
+ - this is done in routes/console.php now
+ - you can schedule a command directly by using for example `->hourly();` in the end 
+
+# Side Notes
+ - check schedule list with `php artisan schedule:list`
