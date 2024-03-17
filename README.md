@@ -1,3 +1,5 @@
+### [laracasts tutorial](https://laracasts.com/series/whats-new-in-laravel-11/)
+
 1. publish config files
  - `php artisan config:publish` 
 2. create a provider 
@@ -10,6 +12,9 @@
 4. Define commands
  - this is done in routes/console.php now
  - you can schedule a command directly by using for example `->hourly();` in the end 
+
+5. API
+ - php artisan install:api
 
 # Side Notes
  - check schedule list with `php artisan schedule:list`
