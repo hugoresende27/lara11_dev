@@ -16,5 +16,9 @@
 5. API
  - php artisan install:api
 
+6. Open AI
+- [open AI github] (https://github.com/openai-php/laravel)
+ - composer require openai-php/laravel
+
 # Side Notes
  - check schedule list with `php artisan schedule:list`
